@@ -1,0 +1,30 @@
+{
+  "expo": {
+    "name": "Quick QR & Barcode Scanner",
+    "slug": "quick-qr-barcode-scanner",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#0B132B"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#0B132B"
+      },
+      "permissions": [
+        "CAMERA"
+      ],
+      "package": "com.toma.quickqrscanner"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "platforms": [
+      "android"
+    ]
+  }
+}
